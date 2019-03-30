@@ -1,0 +1,58 @@
+#certificaction_content{
+	width:1100px;
+	height:1700px;
+	margin-left:auto;
+	margin-right:auto;
+	border:10px #d4c4c4 solid;
+	background-color:#ffffff;
+}
+
+.cert_item{
+	float:left;
+	width:540px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+
+}
+
+.cert_box{
+	background-color:none;
+	border:4px #d4c4c4 solid;
+	 opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.cert_box:hover{
+	background-color:none;
+	border:4px #d4c4c4 solid;
+	 opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+.cert_box_image{
+	background-color:black;
+	
+}
+
+.image_certyficaction{
+	width:490px;
+	height:350px;
+	
+}
+
+.cert_box_title{
+
+	background-color:#d4c4c4;
+	padding:8px;
+	
+}
+
+.sert_title_name{
+	font-family: Poppins-Regular;
+    font-size: 12px;
+    color: #555555;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
