@@ -1,0 +1,13 @@
+.about_me_container{
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#floated{
+    float: left;
+}
+
+.about_me_avatar{
+	width:600px;
+}
