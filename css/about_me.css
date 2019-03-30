@@ -12,3 +12,82 @@
 .about_me_avatar{
 	width:600px;
 }
+
+.about_me_text{
+	font-size: 2rem;
+	line-height: 1.6;
+}
+
+#about_me_education{
+	width:100%;
+}
+
+
+.educaction_table_header{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: center;  
+}
+	
+.eduation_table{
+	width:80%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+
+.educaction_table_column_year{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: left; 
+}
+
+.educaction_table_column_description{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: left; 
+}
+
+
+#about_me_skills{
+	width:100%;
+}
+
+.skills_table{
+	width:80%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;	
+}
+
+.skills_table_header{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: center;  
+}
+
+.skill_table_name{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: left; 
+}
+
+.skill_table_description{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: left; 
+}
+
+.checked {
+  color: orange;
+}
