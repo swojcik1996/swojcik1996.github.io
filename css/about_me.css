@@ -89,3 +89,38 @@
 .checked {
   color: orange;
 }
+
+#about_me_experience{
+	width:100%;
+	margin-bottom:26px;
+}
+
+.experience_table{
+	width:80%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;	
+}
+
+.experience_table_header{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: center;  
+}
+
+.experience_table_column_brand{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: left; 	
+}
+
+.experience_table_column_description{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: left; 
+}
