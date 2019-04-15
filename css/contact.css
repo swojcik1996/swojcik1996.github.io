@@ -12,7 +12,7 @@
 	height:100%;
 	border-right:10px #d4c4c4 dotted;
 	display: flex;
-	align-items: center
+	align-items: center;
 }
 
 #contact_form_content_right{
