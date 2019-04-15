@@ -21,15 +21,11 @@
 	width:100%;
 }
 
-.educaction_table_header{
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 5px;
-	text-align: center;  
-}
+
 	
 .eduation_table{
-	width:80%;
+	width:90%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	border: 1px solid black;
 	border-collapse: collapse;
 	margin-left:auto;
@@ -37,18 +33,30 @@
 	margin-top:20px;
 }
 
+.educaction_table_header{
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: center;  
+	background-color: #4CAF50;
+    color: white;
+}
+
+
 .educaction_table_column_year{
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	padding: 5px;
 	text-align: left; 
+	background-color:#f2f2f2;
 }
 
 .educaction_table_column_description{
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	padding: 5px;
 	text-align: left; 
+	background-color:#f3dede;
 }
 
 
@@ -57,33 +65,54 @@
 }
 
 .skills_table{
-	width:80%;
-	border: 1px solid black;
+	width:90%;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:20px;	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 .skills_table_header{
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	padding: 5px;
 	text-align: center;  
+	background-color: #4CAF50;
+	color:white;
 }
 
 .skill_table_name{
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	padding: 5px;
 	text-align: left; 
+	background-color:#f2f2f2;
+	width:35%;
 }
 
 .skill_table_description{
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	padding: 5px;
 	text-align: left; 
+	background-color:#f3dede;
+}
+
+.skill_row{
+	padding: 3px;	
+}
+
+.skill_row_technology{
+	float:left;
+	width:50%;
+	background-color:none;
+}
+
+.skill_row_rating{
+	float:left;
+	background-color:none;
 }
 
 .checked {
