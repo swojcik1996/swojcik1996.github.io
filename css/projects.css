@@ -36,11 +36,14 @@
 	color:black;	
 }
 
+#testing_projects{
+	background-color: #f1f1db;
+	color:black;		
+}
 
 
 
-
-.accordion {
+.project_link {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -53,11 +56,11 @@
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active, .project_link:hover {
   background-color: #ccc; 
 }
 
-.panel {
+.project_description {
   padding: 0 18px;
   display: none;
   background-color: white;
