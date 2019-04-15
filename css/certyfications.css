@@ -19,7 +19,7 @@
 .cert_box{
 	background-color:none;
 	border:4px #d4c4c4 solid;
-	 opacity: 0.5;
+	opacity: 0.5;
 	filter: alpha(opacity=50);
 }
 
@@ -42,10 +42,8 @@
 }
 
 .cert_box_title{
-
-	background-color:#d4c4c4;
+	background-color:#ffecec;
 	padding:8px;
-	
 }
 
 .sert_title_name{

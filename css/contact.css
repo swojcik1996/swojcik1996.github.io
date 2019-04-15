@@ -10,8 +10,9 @@
 	float:left;
 	width:50%;
 	height:100%;
-	background-color:#ffc7c7;
 	border-right:10px #d4c4c4 dotted;
+	display: flex;
+	align-items: center
 }
 
 #contact_form_content_right{
