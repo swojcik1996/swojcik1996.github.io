@@ -107,7 +107,8 @@
 .skill_row_technology{
 	float:left;
 	width:50%;
-	background-color:none;
+	padding-right:10px;
+	text-align: right; 
 }
 
 .skill_row_rating{
@@ -174,16 +175,34 @@
 
 .experience_job_title{
 	font-weight: bold;
+	text-align: center;
+	margin-bottom:10px;
 }
 
 .experience_title_project{
 	float:left;
-	background-color:silver;
+	background-color:none;
 	width:20%;
 }
 
 .experience_project_name{
 	float:left;
-	background-color:green;
+	background-color:none;
 	width:80%;
+}
+
+.experience_task_project{
+	float:left;
+	background-color:none;
+	width:20%;
+}
+
+.experience_details_task{
+	float:left;
+	background-color:none;
+	width:80%;
+}
+
+.experience_technology{
+	text-align: center;
 }
