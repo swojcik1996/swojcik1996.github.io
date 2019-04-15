@@ -125,31 +125,65 @@
 }
 
 .experience_table{
-	width:80%;
-	border: 1px solid black;
+	width:90%;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:20px;	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 .experience_table_header{
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	padding: 5px;
 	text-align: center;  
+	background-color: #4CAF50;
+	color:white;
 }
 
 .experience_table_column_brand{
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	padding: 5px;
 	text-align: left; 	
+	background-color:#f2f2f2;
+	width:20%;
 }
 
 .experience_table_column_description{
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-collapse: collapse;
 	padding: 5px;
 	text-align: left; 
+	background-color:#f3dede;
+}
+
+.experience_brand_name{
+	text-align: center;
+}
+
+.experience_time_work{
+	text-align: center;
+}
+
+.experience_image_brand{
+	text-align: center;
+}
+
+.experience_job_title{
+	font-weight: bold;
+}
+
+.experience_title_project{
+	float:left;
+	background-color:silver;
+	width:20%;
+}
+
+.experience_project_name{
+	float:left;
+	background-color:green;
+	width:80%;
 }
