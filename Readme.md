@@ -1,4 +1,4 @@
-# www.slawomir-wojcik.pl
+# slawomir-wojcik.pl
 
 ## Author
 
