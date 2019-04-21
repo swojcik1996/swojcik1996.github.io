@@ -67,12 +67,20 @@
   overflow: hidden;
 }
 
-.image_project{
-	width:50%;
-	float:left;
-}
+
 
 .projec_description{
 	font-size: 2rem;
 	line-height: 1.6;
+}
+
+
+.image_container_project{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.image_project{
+	width:100%;
 }
