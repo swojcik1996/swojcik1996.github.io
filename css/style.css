@@ -2462,9 +2462,7 @@ h4.package {
         left: 0;
         top: 0;
     }
-    .contact-block {
-        border-bottom: none;
-    }
+
     .name-block-container,
     .about-block-container,
     .portfolio-block-container,
