@@ -2560,9 +2560,7 @@ h4.package {
         left: 0;
         top: 0;
     }
-    .contact-block {
-        border-bottom: none;
-    }
+
     .about-block:hover,
     .portfolio-block:hover,
     .blog-block:hover,
