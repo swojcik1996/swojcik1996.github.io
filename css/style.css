@@ -2767,9 +2767,16 @@ h4.package {
 }
 
 @media (max-width:320px) {
+    .home.img-bg{
+        background-position-x: center;
+    }
 	.inline-menu {
 		margin-right: 0;
+        margin-top: -50px;
 	}
+    .inline-menu:active{
+        margin-top: 0px;
+    }
 	.inline-menu li {
 	    padding: 0 8px;
 	}
@@ -2782,6 +2789,12 @@ h4.package {
     .project-nav span {
         display: block;
         width: 100%;
+    }
+    .inline-menu-container{
+        height: auto;
+    }
+    .inline-menu-container.showx {
+        top: 0;
     }
 }
 
