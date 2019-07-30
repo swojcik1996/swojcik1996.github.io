@@ -1,0 +1,54 @@
+
+<div id="blog-header" style="background: url(images/map/img_1.png); background-size: cover;">
+    <div class="overlay"></div>
+    <div class="single-post-title">
+        <h1>360 Virtual tour of the school</h1>
+        <p class="post-info">
+            <span class="post-author">By Sławomir Wójcik</span>
+            <span class="slash"></span>
+            <span class="post-date">Dec 08, 2017</span>
+            <span class="slash"></span>
+            <span class="post-catetory">Project</span>
+        </p>
+    </div>
+</div>
+<div class="block-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="single-post">
+                <div class="post">
+                    <div class="post-body ">
+                        <p>360 Virtual tour of the school it is a project created by a three-person team. We used technologies such as Java Script and JSON. It allows users to visit the entire building and out-of-school areas.</p>
+                        <img class="center" src="images/map/img_2.png">
+                        <p>Project is available at the following link www.zspzolkiewka.pl/?p=view360.In addition, the project has Debug option which allows developers to easily read points between panoramas.</p>
+                    </div>
+                    <div class="project-nav text-center">
+                        <span class="float-left">
+                            <a class="open-project" href="data-parser.html">&leftarrow; Previous Project</a>
+                        </span>
+                        <span class="">
+                            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+                        </span>
+                        <span class="float-right">
+                            <a class="open-project" href="electronic-diary.html">Next Project &rightarrow; </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('.open-project').on('click', function() {
+        var postUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(postUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>

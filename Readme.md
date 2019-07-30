@@ -1,5 +1,7 @@
 # slawomir-wojcik.pl
 
-## Author
+**Template author : Ewelina Pałka**
 
-* **Sławomir Wójcik** 
+**SEO : Ewelina Pałka**
+
+Content : Sławomir Wójcik
