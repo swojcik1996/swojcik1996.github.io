@@ -504,21 +504,6 @@ a:not([href]):not([tabindex]) {
     height: 100vh;
 }
 
-/*.slide.one {*/
-/*    background: url(../images/slider/slide1.jpg) 48% 48%;*/
-/*    background-size: cover;*/
-/*}*/
-
-/*.slide.two {*/
-/*    background: url(../images/slider/slide2.jpg) 48% 48%;*/
-/*    background-size: cover;*/
-/*}*/
-
-/*.slide.three {*/
-/*    background: url(../images/slider/slide3.jpg) 48% 48%;*/
-/*    background-size: cover;*/
-/*}*/
-
 #lionhero .owl-nav {
     color: #FFF;
     cursor: pointer;
