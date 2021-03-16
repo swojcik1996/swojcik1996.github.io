@@ -1,0 +1,60 @@
+
+<div id="blog-header" style="background: url(images/projects/14.png); background-size: cover;">
+    <div class="overlay"></div>
+    <div class="single-post-title">
+        <h1>Kontroler muzyki</h1>
+        <p class="post-info">
+            <span class="post-author">Sławomir Wójcik</span>
+            <span class="slash"></span>
+            <span class="post-date">Grudzień 08, 2017</span>
+            <span class="slash"></span>
+            <span class="post-catetory">Projekt</span>
+        </p>
+    </div>
+</div>
+<div class="block-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="single-post">
+                <div class="post">
+                    <div class="post-body ">
+                        <p>Music Controller is a desktop application written in Java using JavaFX allowing you to add sound effects to your music. It has a registration and login system using the OrmLite database.
+                        After login in, the keys on the keyboard are used to play the sound by holding the button down. The number of keys has the function of looping music. On the left and right side, there is a music player
+                        from which  we play any song we want to remix. The video from the application below.</p>
+
+                        <div class="row text-center">
+                            <div class="col-md-12 btn-email">
+                                <a href="https://youtu.be/yJziGA2M_0w" class="btn lowercase">Zobacz film</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-nav text-center">
+                        <span class="float-left">
+                            <a class="open-project" href="360-virtual-tour-of-the-school.html">&leftarrow; Wcześniejszy projekt</a>
+                        </span>
+                        <span class="">
+                            <a id="close-project" href="#"><i class="ion-grid"></i></a>
+                        </span>
+                        <span class="float-right">
+                            <a class="open-project" href="numeric-character-recogniction-learning.html">Następny projekt &rightarrow; </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('.open-project').on('click', function() {
+        var postUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(postUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>
