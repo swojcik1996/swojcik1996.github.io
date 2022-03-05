@@ -67,7 +67,7 @@
 
 	// Typing Animation (Typed.js)
 	$('#element').typed({
-	    strings: ["Test Development Engineer","in IT Kontrakt powered by Avenga"],
+	    strings: ["Senior Test Automation Engineer","in Alten"],
 	    typeSpeed: -50,
 	    loop: true,
 	    startDelay: 500,
